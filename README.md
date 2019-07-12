@@ -1,4 +1,4 @@
-1. To run the sample code, do the following:
+1. To run this application, do the following:
 
     Go to the project root directory
     Run the following commands in the terminal/command line:    
