@@ -1,10 +1,8 @@
-1. This is a dockerized Angular Starter Project
+1. To run the sample code, do the following:
 
-2. To run the sample code, do the following:
-
-    Go to the directory which contains the Dockerfile
+    Go to the project root directory
     Run the following commands in the terminal/command line:    
-    - docker build -t angular:starter .
-    - docker run -v ${PWD}:/app -v /app/node_modules -p 4200:4200 --rm angular:starter
+    - npm install
+    - ng serve --port=<port_number>
     
-3. Go to http://localhost:4200/ in your browser to view it.
+2. Go to http://localhost:<port_number>/ in your browser to view it.
